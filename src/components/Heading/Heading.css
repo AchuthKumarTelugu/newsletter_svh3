@@ -1,0 +1,10 @@
+
+   .heading{
+    border-left:5px solid #10A0EB;
+    padding-left:1rem;
+    margin:3rem 0;
+   }
+   .heading h2{
+       font-weight: 500;
+       font-size:1.7rem;
+   }

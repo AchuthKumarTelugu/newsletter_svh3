@@ -1,0 +1,39 @@
+.join-news-letter{
+    width:70%;
+    margin:4rem auto;
+    padding:2rem 4rem;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color:#F5F5F9;
+}
+.join-news-letter h2{
+    margin-top:2rem;
+    font-weight:600;
+}
+.join-news-letter h4{
+    font-weight:500;
+}
+.join-news-letter input{
+    font-size:1.2rem;
+    padding:0.4rem 0.6rem;
+    outline:none;
+    border:1px solid lightgray;
+}
+.join-news-letter input:focus{
+    outline:none;
+}
+.join-news-letter button{
+    border:none;
+    background-color: #10a0eb;
+    color:white;font-weight:400;font-size:1.4rem;
+    padding:0.3rem 1rem;
+   cursor:pointer;
+}
+.join-news-letter button:active{
+    background-color: #076fa4;
+}
+.join-news-letter p{
+    color:gray;
+    font-size:0.9rem
+}

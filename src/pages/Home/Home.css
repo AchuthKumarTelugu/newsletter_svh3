@@ -1,0 +1,17 @@
+.home{
+ padding:1rem 2rem;
+}
+.top-stories{
+ border-left:5px solid #10A0EB;
+ padding-left:1rem;
+}
+.top-stories h2{
+    font-weight: 500;
+    font-size:1.7rem;
+}
+.top_latest_news{
+    width:100%;
+    display:flex;
+    /* justify-content: space-between; */
+    gap:2rem;
+}

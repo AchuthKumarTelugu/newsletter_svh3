@@ -1,0 +1,11 @@
+.banner{
+    display:grid;
+    place-content: center;
+    /* background-color:blue; */
+    padding-top:1rem;
+    margin-bottom: 1rem;
+}
+.banner img{
+    width:100%;
+    pointer-events: none;
+}

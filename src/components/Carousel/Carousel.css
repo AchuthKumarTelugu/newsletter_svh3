@@ -1,0 +1,28 @@
+.carousel{
+    padding:1rem 2rem;
+    width:95%;
+    margin:2rem auto;
+}
+.carousel-slider{
+    /* display:flex;
+    gap:1rem;
+    overflow-x:auto; */
+}
+.carousel-card img{
+    width:20rem;
+}
+.carousel-card{
+    position:relative;
+}
+.carousel-card h4{
+    position:absolute;
+    z-index:100;
+    bottom:10%;
+    left:10%;
+    color:white;
+    width:80%;
+    overflow:hidden;
+}
+.slick-prev::before,.slick-next::before{
+    color:#10A0EB !important;
+}

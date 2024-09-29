@@ -1,0 +1,15 @@
+.BackToTop-button{
+    position: fixed;
+    bottom:2%;
+    right:2%;
+    width:3rem;
+    height:3rem;
+    font-size:2rem;
+    border-radius:50%;
+    border:none;
+    background-color:#10A0EB;color:white;
+    cursor:pointer
+}
+.BackToTop-button:hover{
+    background:#076FA4;
+}
