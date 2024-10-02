@@ -1,6 +1,6 @@
 .carousel{
     padding:1rem 2rem;
-    width:95%;
+    width:75%;
     margin:2rem auto;
 }
 .carousel-slider{
@@ -10,6 +10,7 @@
 }
 .carousel-card img{
     width:20rem;
+    height:15rem;
 }
 .carousel-card{
     position:relative;

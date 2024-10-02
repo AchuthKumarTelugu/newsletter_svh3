@@ -18,8 +18,8 @@ const Home = () => {
     <div className="home">
       <Heading title={"Top Stories"}/>
         <Carousel carousel_list={carousel_list}/>
-        <Banner img={news_banner}/>
-        <Banner img={bigboss_banner}/>
+        {/* <Banner img={news_banner}/> */}
+        {/* <Banner img={bigboss_banner}/> */}
         <div className="top_latest_news">
         <CategorySection categoryName={"Top News"} data={top_news}/>
         <CategorySection categoryName={"Latest News"} data={top_news}/>
@@ -27,7 +27,7 @@ const Home = () => {
         <CategorySlider title={"Local News"} data={top_news}/>
         <CategorySlider title={"Sports News"} data={sports_news}/>
         <BackToTop/>
-        <JoinNewsLetter/>
+        {/* <JoinNewsLetter/> */}
     </div>
   )
 }
